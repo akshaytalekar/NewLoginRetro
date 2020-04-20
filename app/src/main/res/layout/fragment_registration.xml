@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/c3"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".fragment.RegistrationFragment">
+
+    <TextView
+        android:id="@+id/textTenent"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/times_roman"
+        android:gravity="center"
+        android:text="Tenent's Registration"
+        android:textColor="@color/c4"
+        android:textSize="28dp" />
+
+
+
+    <EditText
+        android:id="@+id/tenenteditName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/corner1"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+
+
+
+
+    <EditText
+        android:id="@+id/tenenteditMobile"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/corner1"
+        android:inputType="number"
+        android:hint="Mobile Number" />
+
+    <EditText
+        android:id="@+id/tenenteditEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/corner1"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        android:hint="Email Address" />
+
+    <EditText
+        android:id="@+id/tenenteditpassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/corner1"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/tenenteditConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/corner1"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"/>
+
+    <Button
+        android:id="@+id/tenentSubmit"
+        android:layout_width="150dp"
+        android:background="@drawable/corner1"
+        android:layout_height="40dp"
+        android:layout_margin="30dp"
+        android:text="Submit"
+        />
+</LinearLayout>

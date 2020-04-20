@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/c3"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".fragment.LandRegistrationFragment">
+
+    <TextView
+        android:id="@+id/textTenent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/c4"
+        android:fontFamily="@font/times_roman"
+        android:textSize="25dp"
+        android:text="Landlord's Registration" />
+
+    <EditText
+        android:id="@+id/landeditName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:background="@drawable/corner1"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/landeditMobile"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:background="@drawable/corner1"
+        android:inputType="number"
+        android:hint="Mobile Number" />
+
+    <EditText
+        android:id="@+id/landeditEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/corner1"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Email Address" />
+
+    <EditText
+        android:id="@+id/landeditpassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/corner1"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/landeditConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/corner1"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"/>
+
+    <Button
+        android:id="@+id/landlordSubmit"
+        android:layout_width="150dp"
+        android:background="@drawable/corner1"
+        android:layout_height="40dp"
+
+        android:layout_margin="30dp"
+        android:text="Submit"
+        />
+</LinearLayout>
